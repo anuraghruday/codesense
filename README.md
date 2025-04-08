@@ -4,7 +4,7 @@ AI CodeSense is an AI-powered code review assistant that helps developers analyz
 
 ---
 
-## 🚀 Features
+## Features
 - **AI-powered code review** using OpenAI's GPT-4
 - **FastAPI backend** for efficient API handling
 - **Next.js frontend** with an intuitive UI for submitting code
@@ -18,13 +18,13 @@ AI CodeSense is an AI-powered code review assistant that helps developers analyz
 
 ## 🛠️ Setup & Installation
 
-### **1️⃣ Clone the repository**
+### **1️. Clone the repository**
 ```sh
 git clone https://github.com/anuraghruday/ai-codesense.git
 cd ai-codesense
 ```
 
-### **2️⃣ Setup the Backend**
+### **2️. Setup the Backend**
 #### Install dependencies
 ```sh
 cd backend
@@ -44,7 +44,7 @@ DB_PORT=your_db_port
 uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### **3️⃣ Setup the Frontend**
+### **3️. Setup the Frontend**
 #### Install dependencies
 ```sh
 cd frontend
@@ -55,7 +55,7 @@ npm install
 npm run dev
 ```
 
-### **4️⃣ Database Setup (PostgreSQL)**
+### **4️. Database Setup (PostgreSQL)**
 Ensure you have PostgreSQL installed and run the schema:
 ```sh
 psql -U your_db_user -d your_db_name -f database/schema.sql
@@ -63,7 +63,7 @@ psql -U your_db_user -d your_db_name -f database/schema.sql
 
 ---
 
-## 🚀 Running with Docker
+## Running with Docker
 Build and run the application using Docker:
 ```sh
 docker build -t ai-codesense .
@@ -101,12 +101,12 @@ docker-compose up --build
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome! Please open an issue to discuss before submitting any changes.
 
 1. Fork the repository
@@ -117,7 +117,7 @@ Pull requests are welcome! Please open an issue to discuss before submitting any
 
 ---
 
-## 📞 Contact
+## Contact
 For any inquiries or support, reach out via:
 - 📧 Email: anurag.hruday@gmail.com
 - 🌐 GitHub: [github.com/anuraghruday](https://github.com/anuraghruday)
