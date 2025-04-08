@@ -16,7 +16,7 @@ AI CodeSense is an AI-powered code review assistant that helps developers analyz
 
 
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 ### **1️. Clone the repository**
 ```sh
@@ -76,7 +76,7 @@ docker-compose up --build
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 ### `POST /analyze`
 #### Request Body:
 ```json
@@ -93,7 +93,7 @@ docker-compose up --build
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Backend**: FastAPI, OpenAI GPT-4, PostgreSQL
 - **Frontend**: Next.js, React, TypeScript
 - **Database**: PostgreSQL
